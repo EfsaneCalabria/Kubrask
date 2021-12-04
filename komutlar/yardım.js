@@ -9,10 +9,10 @@ if (!message.guild) {
     .setAuthor(message.author.username, message.author.avatarURL)
     .addField('**Komutları Özel Mesajlarda Kullanılamaz!**')
     return message.author.send(ozelmesajuyari); }
-const sudeask = new Discord.MessageEmbed()
+const zort = new Discord.MessageEmbed()
 
 .setColor("RANDOM")
-.setTitle("**Viona**")
+.setTitle("-")
 .setDescription(`
 **• Komutlar**
 >  \`•\` **.e**:[Erkek]
@@ -32,7 +32,7 @@ const sudeask = new Discord.MessageEmbed()
 
  
 
-return message.channel.send(sudeask)
+return message.channel.send(zort)
 .then; 
 
 };
