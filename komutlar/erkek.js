@@ -6,7 +6,7 @@ const { parseZone } = require("moment");
 const ayarlar = require("../ayarlar.json");
 
 exports.run =  async (client, message, args) => {
-if (message.channel.id !== "891366478207656089") return message.channel.send("Bu Komutu Sadece Kayıt Chatte Kullanabilirsin <#891366478207656089>").then(x => x.delete({timeout: 10000})); 
+if (message.channel.id !== "") return message.channel.send("Bu Komutu Sadece Kayıt Chatte Kullanabilirsin <#>").then(x => x.delete({timeout: 10000})); 
   
 if(!['895910408974630942'].some(role => message.member.roles.cache.get(role)) && !message.member.hasPermission('ADMINISTRATOR')) 
 return message.channel.send(new MessageEmbed()
