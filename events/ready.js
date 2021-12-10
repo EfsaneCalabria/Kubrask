@@ -6,7 +6,7 @@ const { prefix } = require('../ayarlar.json')
 module.exports = client => {
   var degisenOynuyor = [
     
-    "Wilson ❤️",
+    "oynuyor kısmı",
     ]
   
   setInterval(function() {
