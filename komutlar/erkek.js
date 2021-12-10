@@ -140,7 +140,6 @@ savelog.send(new MessageEmbed()
 .setColor('RED'))
 
 
-                                                    //PROJENİN SAHİBİ GRAVİTY#2566                  // yas: age,
   //PROJENİN SAHİBİ KABUS                // yas: age,
 db.push(`isim.${message.guild.id}`, {userID: member.id, isim: Name,  role: erkekrol.id})}
 exports.conf = {enabled: true, guildOnly: true, aliases: ['erkek', 'e', 'boy', 'man', 'adam'], permLevel: 0}
